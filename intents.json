@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patrones": [
+                "Hola", 
+                "¿Qué tal?", 
+                "¡Buenos días!", 
+                "Hi", 
+                "How are you?", 
+                "Good morning!"
+            ],
+            "respuestas": [
+                "Hola, ¿en qué puedo ayudarte?", 
+                "¡Hola!", 
+                "Buen día", 
+                "Hello, how can I assist you?", 
+                "Hi there, how can I help you?", 
+                "Good morning!"
+            ]
+        },
+        {
+            "tag": "precios",
+            "patrones": ["¿Cuál es el precio de los productos?", "¿Cuánto cuesta el envío?", "What is the price of your products?", "How much does shipping cost?"],
+            "respuestas": ["Nuestros precios varían dependiendo del producto. ¿En qué producto estás interesado?", "Our prices vary depending on the product. Which product are you interested in?", "The price of our products depend on the item. Which one are you looking for?"]
+        },
+        {
+            "tag": "soporte",
+            "patrones": ["Necesito soporte", "¿Puedes ayudarme con un problema?", "Do you offer support?", "How can I get help?", "¿Ofrecen soporte técnico?"],
+            "respuestas": ["Por supuesto, ¿en qué puedo ayudarte?", "Claro, ¿cuál es el problema que estás experimentando?", "Yes, we offer support. How can we help you?", "What seems to be the issue you are facing?", "Sí, ofrecemos soporte técnico. ¿En qué podemos ayudarte?"]
+        },
+        {
+            "tag": "despedida",
+            "patrones": ["Adiós", "Hasta luego", "Hasta pronto", "Goodbye", "See you later", "Take care"],
+            "respuestas": ["¡Hasta luego!", "¡Adiós!", "¡Hasta la vista!", "Goodbye, have a great day!", "See you later, take care!", "Take care, bye!"]
+        },
+        {
+            "tag": "horario",
+            "patrones": ["¿Cuál es su horario de atención?", "¿A qué hora abren?", "¿A qué hora cierran?", "What are your hours of operation?", "What time do you open?", "What time do you close?"],
+            "respuestas": ["Nuestro horario de atención es de lunes a viernes de 9am a 6pm.", "Abrimos de lunes a viernes a las 9am y cerramos a las 6pm.", "Our hours of operation are Monday to Friday from 9am to 6pm.", "We open at 9am from Monday to Friday and close at 6pm."]
+        },
+        {
+            "tag": "producto",
+            "patrones": [
+                "¿Qué productos venden?",
+                "¿Cuáles son sus productos más populares?",
+                "¿Tienen algún producto nuevo?",
+                "¿Qué productos tienen en oferta?",
+                "¿Puedes recomendarme un producto?",
+                "¿Qué productos tienen para [categoría]?",
+                "¿Qué productos tienen para [necesidad]?",
+                "¿Cuál es la diferencia entre [producto A] y [producto B]?"
+            ],
+            "respuestas": [
+                "Tenemos una amplia variedad de productos, desde [categoría A] hasta [categoría B]. Algunos de nuestros productos más populares son [producto A], [producto B] y [producto C].",
+                "Sí, tenemos algunos productos nuevos en nuestra tienda. ¿Estás interesado en algún tipo de producto en particular?",
+                "Actualmente tenemos una oferta especial en [producto A]. ¡No pierdas la oportunidad de conseguirlo a un precio reducido!",
+                "Para [categoría] puedes revisar [producto A], [producto B] o [producto C]. ¿Tienes alguna preferencia?",
+                "Para [necesidad] te recomendamos [producto A], [producto B] o [producto C]. ¿Qué te parece alguna de estas opciones?",
+                "La diferencia principal entre [producto A] y [producto B] es que [diferencia]. ¿Te gustaría saber más sobre alguno de estos productos?"
+            ]
+        }
+    ]
+}
